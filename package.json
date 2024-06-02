@@ -1,15 +1,20 @@
 {
   "name": "carbon-date-ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fianso98/carbon-date-ts"
+  },
   "version": "0.0.1",
   "description": "carbon-date-ts is a powerful TypeScript library that mirrors the functionality of the popular Carbon PHP package",
-  "main": "dist/main.js",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "start": "tsc && node dist/main.js",
+    "build": "rm -rf dist/ && tsc",
+    "start": "npm run build && node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Sofiane & Lotfi",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^5.4.5"
   }
