@@ -1,0 +1,16 @@
+export const MONTHS_PER_YEAR = 12;
+export const HOURS_PER_DAY = 24;
+export const MINUTES_PER_HOUR = 60;
+export const SECONDS_PER_MINUTE = 60;
+export const YEARS_PER_MILLENNIUM = 1_000;
+export const YEARS_PER_CENTURY = 100;
+export const YEARS_PER_DECADE = 10;
+export const MONTHS_PER_QUARTER = 3;
+export const QUARTERS_PER_YEAR = 4;
+export const WEEKS_PER_YEAR = 52;
+export const WEEKS_PER_MONTH = 4;
+export const DAYS_PER_YEAR = 365;
+export const DAYS_PER_WEEK = 7;
+export const MILLISECONDS_PER_SECOND = 1_000;
+export const MICROSECONDS_PER_MILLISECOND = 1_000;
+export const MICROSECONDS_PER_SECOND = 1_000_000;
