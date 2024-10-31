@@ -1,6 +1,9 @@
 
-import { CarbonTimeZone } from "../src/core/CarbonTimeZone";
+import { DateTime } from "../src/core/CarbonTimeZone";
+import { LocaleEnum } from "../src/enums/locale.enum";
+import { TimeZoneEnum } from "../src/enums/timezone.enum";
 
-const tz = CarbonTimeZone.fromName('America/New_York');
-const date = new Date();
-console.log(tz.format(date, 'yyyy-MM-dd HH:mm:ssXXX'));
+const dt = DateTime.now(TimeZoneEnum.UTC, LocaleEnum.enUS);
+console.log(dt.format('yyyy-MM-dd HH:mm:ss'));
+console.log(dt.toISO());
+console.log(dt.getDate());
